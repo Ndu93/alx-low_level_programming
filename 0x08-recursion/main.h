@@ -1,3 +1,6 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
 /**
  * File: main.h
  * Auth: Osuagwu Daniel Ndubueze

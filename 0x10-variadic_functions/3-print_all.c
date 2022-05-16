@@ -9,7 +9,7 @@ void print_string(va_list arg);
 void print_all(const char * const format, ...);
 
 /**
- * the print_char - Prints a char.
+ * print_char - Prints a char.
  * @arg: A list of arguments pointing to
  *       the character to be printed.
  */
@@ -28,10 +28,10 @@ void print_char(va_list arg)
  */
 void print_int(va_list arg)
 {
-	int number;
+	int num;
 
-	number = va_arg(arg, int);
-	printf("%d", number);
+	num = va_arg(arg, int);
+	printf("%d", num);
 }
 
 /**
@@ -41,10 +41,10 @@ void print_int(va_list arg)
  */
 void print_float(va_list arg)
 {
-	float number;
+	float num;
 
 	num = va_arg(arg, double);
-	printf("%f", number);
+	printf("%f", num);
 }
 
 /**
